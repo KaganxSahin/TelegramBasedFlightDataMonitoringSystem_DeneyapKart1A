@@ -98,7 +98,6 @@ void loop() {
     float lng = GPS.readLocationLng();
   
     float pressure = BaroSensor.getPressure();
-    float baroTemp = BaroSensor.getTemp();
 
     float lux = UVlight.getLUX();
     
