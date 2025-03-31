@@ -94,6 +94,8 @@ void loop() {
 
     float tempC = AccGyro.readTempC();
     float tempF = AccGyro.readTempF();
+    
+    GPS.readGPS(RMC);
 
     float lat = GPS.readLocationLat();
     float lng = GPS.readLocationLng();
